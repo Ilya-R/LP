@@ -1,0 +1,36 @@
+
+.container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container1 {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+.container2 {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctrlz {
+ float: right;
+  display:inline-block;
+}
+
+.column-1-2-1 {
+  width: 48%;
+  float: left;
+}
+
+.container:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+

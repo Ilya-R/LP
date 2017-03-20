@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:tahoma;
+}
+.parallax-window {
+    height: 670px;
+    background: transparent;
+}
+.intro {
+    background-size: cover;
+    background-position:50% 50%;
+    display:table;
+    height: 670px;
+    width: 100%;
+    position:relative;
+
+}
+.sndscreen {
+    background-color: #fff;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0 0%, center top;
+    color: #000000;
+}
+.fon{
+    margin-top: 5%;
+    position: absolute;
+    left:0;
+    width:100%;
+    height: 69%;
+    color:#f58d34;
+    background-color:rgba(255,255,255,0.7);
+    text-align:center;
+}
+
+.intro-squre {
+    background: #fff;
+    background-size: contain;
+    padding: 1%;
+}
+.reasons
+{
+    display: block;
+}
+
+
+.reasons{text-align:center; padding:25px 0}
+.reasons .block{margin:50px 0;}
+.reasons img[src*="7reasons"]{width:450px;position:relative; left:50px;}
+.reasons span{display:block; margin:15px 0; font-weight:900; text-align:left}
+.reasons span:nth-of-type(2n){text-align:right}
+.reasons img[src*="icon"]{float:left; width:50px;position:relative; top:-15px; margin: 0 15px;}
+.reasons span:nth-of-type(2n) img[src*="icon"]{float:right}
+
+
+
+.thrdscreen
+{
+    vertical-align: top;
+    height:670px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size:cover;
+    background-position:50% 50%;
+    display:table;
+    width:100%;
+    position:relative;
+    padding-top: 4%;
+
+}
+.thrdscreen img{
+    margin: 5px;
+}
+
+.fourth h1{color:#248dad; text-align:center; font-size:40px; padding-bottom:15px; border-bottom:3px solid #248dad;margin:25px 0 100px 0;}
+.fourth div{clear:both; font-weight:900;}
+.fourth div span{float:left; text-align:center; margin: -50px 15px 25px 0; margin-bottom: 50px; color:#248dad; font-size:16px; font-weight:900;}
+.fourth div:nth-of-type(2n) span{float:right; margin: -50px 0 25px 15px; margin-bottom: 50px;}
+.fourth div:nth-of-type(2n){text-align:right; margin-bottom: 60px;}
+
+.footer{
+    background-color: #000000;
+}
